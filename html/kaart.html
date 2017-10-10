@@ -1,0 +1,35 @@
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/OpenLayers.js"></script>
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/proj4js-compressed.js"></script>
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/pdok-api.js"></script>
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/geozetlib.js"></script>
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/pdok-markers.js"></script>
+<script type="text/javascript" src="http://kaart.pdok.nl/api/js/pdok-layers.js"></script>
+<script type="text/javascript">
+Pdok.addcss("http://kaart.pdok.nl/api/styles/default/style.css");
+Pdok.addcss("http://kaart.pdok.nl/api/styles/api.css");
+var config_2169={
+  "mapdiv": "map_2169",
+  "zoom": 13,
+  "showscaleline": true,
+  "showmouseposition": true,
+  "loc": "160933.705, 425880.5012",
+  "baselayers": [
+    {
+      "id": "BRT",
+      "visible": true
+    },
+    {
+      "id": "LUFO",
+      "visible": false
+    }
+  ],
+  "markersdef": "http://kaart.pdok.nl/api/js/pdok-markers.js",
+  "layersdef": "http://kaart.pdok.nl/api/js/pdok-layers.js",
+  "features": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><kml xmlns=\"http://earth.google.com/kml/2.2\"><Document><name>null</name><description>null</description><Style id=\"style_2194\"><PolyStyle><color>3ffffff</color><fill>1</fill></PolyStyle><IconStyle><Icon><href>http://kaart.pdok.nl/api/markertypes/document-properties.png</href></Icon><scale>1</scale></IconStyle></Style><Style id=\"style_2196\"><PolyStyle><color>3ffffff</color><fill>1</fill></PolyStyle><IconStyle><Icon><href>http://kaart.pdok.nl/api/markertypes/dialog-cancel.png</href></Icon><scale>1</scale></IconStyle></Style><Style id=\"style_2198\"><PolyStyle><color>3ffffff</color><fill>1</fill></PolyStyle><IconStyle><Icon><href>http://kaart.pdok.nl/api/markertypes/parkeren.jpg</href></Icon><scale>1</scale></IconStyle></Style><Folder><Placemark><name>De Hucht</name><description>De Hucht is het dorpshuis van Alphen aan de Maas</description><styleUrl>#style_2194</styleUrl><Point><coordinates>5.473862181044309,51.82091149773761</coordinates></Point><ExtendedData><Data name=\"styletype\"><value>mt0</value></Data></ExtendedData></Placemark><Placemark><name>De flappentap van Alphen</name><description>&amp;nbsp;</description><styleUrl>#style_2196</styleUrl><Point><coordinates>5.4724692132737225,51.821984652573036</coordinates></Point><ExtendedData><Data name=\"styletype\"><value>mt23</value></Data></ExtendedData></Placemark><Placemark><name>De grootste vrije parkeerplaats a</name><description>&amp;nbsp;</description><styleUrl>#style_2198</styleUrl><Point><coordinates>5.4722245188368746,51.82144498914331</coordinates></Point><ExtendedData><Data name=\"styletype\"><value>mt35</value></Data></ExtendedData></Placemark></Folder></Document></kml>"
+};
+var api_2169;
+Pdok.ready( 
+function(){ 
+api_2169 = new Pdok.Api(config_2169);
+} );
+</script>

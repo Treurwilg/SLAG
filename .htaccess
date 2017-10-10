@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^slagbus-informatie/?$ slagbus.php [NC,L] # Handle requests for "slagbus-informatie"
+RewriteRule ^klushanger-informatie/?$ klushanger.php [NC,L] # Handle requests for "klushanger-informatie"
+RewriteRule ^dorpsontwikkelingsplan/?$ dop.php [NC,L] # Handle requests for "dorpsontwikkelingsplan"
+RewriteRule ^WhatsAppBuurtPreventie/?$ wabp.php [NC,L] # Handle request for "WhatsAppBuurtPreventie"
+RewriteRule ^slag-informatie/?$ overslag.php [NC,L] # Handle requests for "slag-informatie"
+RewriteRule ^busaanvragen/?$ busaanvraag.php [NC,L] # handle requests for "busaanvragen"
+RewriteRule ^busaanvraagverzonden/?$ verwerkbusaanvraag.php [NC,L] # Handle requests for "busaanvraagverzonden"
+RewriteRule ^actueel/?$ actueel.php [NC,L] # Handle requests for "actueel"
+RewriteRule ^welkom/?$ index.php [NC,L] # Handle requests for "welkom", eigenlijk de home page.

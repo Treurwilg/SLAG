@@ -1,0 +1,27 @@
+.topicheader {
+	position: relative;
+}
+
+#socialbuttons {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	width: 200px;
+}
+
+#kleinlogo {
+	width: 150px;
+	height: 50px;
+}
+
+#map_2169 {
+	width: 100%;
+	height: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+
+#welkom {
+	text-align: middle;
+}

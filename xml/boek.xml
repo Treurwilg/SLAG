@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="boek.xsl"?>
+<boek isbn="0-321-45687-4">
+  <titel>XML Development with Java 2</titel>
+  <auteur>Michael Daconta et al.</auteur>
+  <prijs valuta="EUR">44.99</prijs>
+  <categorie>software 
+    <subcategorie>
+      Java
+    </subcategorie>
+  </categorie>
+</boek>

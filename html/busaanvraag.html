@@ -1,0 +1,41 @@
+<div class="container"> <!--aanvraag SLAGbus-->
+  <h2>Formulier om een aanvraag voor de SLAGbus in te dienen</h2>
+  <form role="form" action="busaanvraagverzonden" method="post">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Voer email in">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" name="password" placeholder="Voer paswoord in">
+    </div>
+    <div class="form-group">
+      <label for="naampassagier">Naam passagier:</label>
+      <input type="text" class="form-control" id="naampassagier" name="naampassagier" placeholder="Voer naam passagier in">
+    </div>
+    <div class="form-group">
+      <label for="naamaanvrager">Naam aanvrager:</label>
+      <input type="text" class="form-control" id="naamaanvrager" name="naamaanvrager" placeholder="Als naam aanvrager ander dan die van de passagier">
+    </div>
+    <div class="form-group">
+      <label for="vertrekadres">Vertrekadres:</label>
+      <input type="text" class="form-control" id="vertrekadres" name="vertrekadres" placeholder="Voer adres in vanwaar passagier wil vertrekken">
+    </div>
+    <div class="form-group">
+      <label for="brengadres">Brengadres:</label>
+      <input type="text" class="form-control" id="brengadres" name="brengadres" placeholder="Voer adres in waar passagier moet worden gebracht">
+    </div>
+    <div class="form-group">
+      <label for="vertrektijd">Gewenste vertrektijd:</label>
+      <input type="datetime" class="form-control" id="vertrektijd" name="vertrektijd" placeholder="Voer gewenste vertrektijd in">
+    </div>
+	 <div class="form-group">
+  		<label for="informatie">Andere zaken van belang voor uw aanvraag:</label>
+  		<textarea class="form-control" rows="5" id="informatie" name="informatie"></textarea>
+	 </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="onthoudme"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-success">Aanvraag indienen</button>
+  </form>
+</div> <!--container aanvraag SLAGbus-->
